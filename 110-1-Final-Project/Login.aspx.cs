@@ -12,13 +12,20 @@ namespace _110_1_Final_Project
         protected void Page_Load(object sender, EventArgs e)
         {
 
+
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            if (User.Text == "Tako")
+            if (User.Text == "Test" && Password.Text == "1234")
             {
-                Response.Redirect("Home.aspx");
+
+                Server.Transfer("Home.aspx");
+            }
+            else
+            {
+                Tip.Text = "帳號或密碼錯誤，請在試一次";
+
             }
         }
     }

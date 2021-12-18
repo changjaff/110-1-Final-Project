@@ -9,8 +9,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
+        <h1>歡迎來到健康管理系統</h1>
+        <asp:Label ID="Title" runat="server" Text="您好" Font-Size="X-Large"></asp:Label>
+
     </form>
 </body>
 </html>

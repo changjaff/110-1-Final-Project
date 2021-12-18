@@ -11,7 +11,10 @@ namespace _110_1_Final_Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(IsPostBack == false)
+            {
+                Title.Text  =  Request.Form.Get("User") + " 用戶" + Title.Text;
+            }
         }
     }
 }
