@@ -67,14 +67,38 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BMI.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="HealthData.aspx" />
+    <Content Include="HealthQuest.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BMI.aspx.cs">
+      <DependentUpon>BMI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BMI.aspx.designer.cs">
+      <DependentUpon>BMI.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HealthData.aspx.cs">
+      <DependentUpon>HealthData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HealthData.aspx.designer.cs">
+      <DependentUpon>HealthData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HealthQuest.aspx.cs">
+      <DependentUpon>HealthQuest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HealthQuest.aspx.designer.cs">
+      <DependentUpon>HealthQuest.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
