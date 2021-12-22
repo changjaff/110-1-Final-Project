@@ -9,8 +9,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
+        <h1>查詢健康資料</h1>
+        <asp:Label runat="server" Text="您好，您的健康資料為:"></asp:Label>
     </form>
 </body>
 </html>
