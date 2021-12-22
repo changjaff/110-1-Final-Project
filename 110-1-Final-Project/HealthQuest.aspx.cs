@@ -13,5 +13,10 @@ namespace _110_1_Final_Project
         {
 
         }
+
+        protected void btn_Submit_Click(object sender, EventArgs e)
+        {
+            lb_Msg.Text += "恭喜，您得到了" + "result" + "分";
+        }
     }
 }
