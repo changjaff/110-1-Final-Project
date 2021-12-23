@@ -20,7 +20,9 @@
 
         <asp:Button ID="btn_submit" runat="server" Text="計算BMI" onclick="btn_submit_Click"/> <br/>
 
-        <asp:Label ID="lb_Msg" runat="server" Text=""></asp:Label> 
+        <asp:Label ID="lb_Msg" runat="server" Text=""></asp:Label> <br/>
+
+        <asp:Label ID="lb_Msg1" runat="server" Text=""></asp:Label> 
     </form>
 </body>
 </html>
