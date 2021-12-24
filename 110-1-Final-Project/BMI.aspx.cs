@@ -20,7 +20,9 @@ namespace _110_1_Final_Project
             w = Convert.ToDouble(txt_kg.Text);
             h = Convert.ToDouble(txt_cm.Text);
             bmi = w / ((h / 100) * (h / 100));
-            lb_Msg.Text = "您的BMI為 :" + bmi.ToString("f1");
+            lb_Msg.Text = bmi.ToString();
+            SqlDataSource1.Insert();
+
 
 
 
