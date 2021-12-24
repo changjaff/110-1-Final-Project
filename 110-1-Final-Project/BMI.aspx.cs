@@ -21,10 +21,26 @@ namespace _110_1_Final_Project
             h = Convert.ToDouble(txt_cm.Text);
             bmi = w / ((h / 100) * (h / 100));
             lb_bmi.Text = bmi.ToString("f1");
+
+            if (bmi > 24)
+            {
+                lb_Bmitip.Text = "體重過重";
+            }
+
+            if (bmi <= 24 && bmi >=18.5)
+            {
+                lb_Bmitip.Text = "體重正常";
+            }
+
+            if (bmi < 18.5)
+            {
+                lb_Bmitip.Text = "體重過輕";
+            }
+
             lb_Msg.Text = "您的BMI為 :" + bmi.ToString("f1");
-            lb_Msg1.Text = "BMI值參考 :" + "<br/>";
+            lb_Msg1.Text = "健康小提示 : BMI值參考" + "<br/>";
             lb_Msg1.Text += "體重過輕 : BMI ＜ 18.5" + "<br/>";
-            lb_Msg1.Text += "正常範圍 : 8.5 ≦ BMI＜ 24" + "<br/>";
+            lb_Msg1.Text += "正常範圍 : 18.5 ≦ BMI＜ 24" + "<br/>";
             lb_Msg1.Text += "過重 : 24 ≦ BMI ＜ 27" + "<br/>";
 
             SqlDataSource1.Insert();
