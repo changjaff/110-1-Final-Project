@@ -151,7 +151,11 @@ namespace _110_1_Final_Project
 
         protected void btn_Submit_Click(object sender, EventArgs e)
         {
-            lb_Msg.Text += "恭喜，您得到了" + Value + "分";
+            lb_Msg.Text += "恭喜，您得到了" + Value + "分"+"<br />";
+            lb_Msg1.Text += "分數說明:" + "<br />";
+            lb_Msg1.Text += "分數60分下，應注意身體健康狀況並洽詢醫師" + "<br />";
+            lb_Msg1.Text += "分數70分~80分，健康尚可但仍需多注意自身身體狀況" + "<br />";
+            lb_Msg1.Text += "分數90分~100分，身體狀況完美繼續保持多加繼續努力" + "<br />";
         }
     }
 }

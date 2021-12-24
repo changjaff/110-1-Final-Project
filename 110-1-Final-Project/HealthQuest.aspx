@@ -79,6 +79,7 @@
 
         <asp:Button ID="btn_Submit" runat="server" Text="送出" onclick="btn_Submit_Click"/><br/>
         <asp:Label ID="lb_Msg" runat="server" Text=""></asp:Label>
+        <asp:Label ID="lb_Msg1" runat="server" Text=""></asp:Label>
     </form>
 </body>
 </html>
