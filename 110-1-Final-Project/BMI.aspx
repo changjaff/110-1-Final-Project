@@ -21,8 +21,28 @@
         <asp:Button ID="btn_submit" runat="server" Text="計算BMI" onclick="btn_submit_Click"/> <br/>
 
         <asp:Label ID="lb_Msg" runat="server" Text=""></asp:Label> <br/>
+     
+        <asp:Label ID="lb_Msg1" runat="server" Text=""></asp:Label> <br/>
 
-        <asp:Label ID="lb_Msg1" runat="server" Text=""></asp:Label> 
+        <asp:Label ID="lb_bmi" runat="server" Text=""></asp:Label><br/>
+
+
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:HealthConnectionString2 %>" DeleteCommand="DELETE FROM [BMI] WHERE [Hight] = @Hight" InsertCommand="INSERT INTO [BMI] ([Hight], [Weight], [BMI]) VALUES (@Hight, @Weight, @BMI)" SelectCommand="SELECT * FROM [BMI]" UpdateCommand="UPDATE [BMI] SET [Weight] = @Weight, [BMI] = @BMI WHERE [Hight] = @Hight">
+            <DeleteParameters>
+                <asp:Parameter Name="Hight" Type="Int32" />
+            </DeleteParameters>
+            <InsertParameters>
+                <asp:ControlParameter ControlID="txt_cm" Name="Hight" PropertyName="Text" Type="Int32" />
+                <asp:ControlParameter ControlID="txt_kg" Name="Weight" PropertyName="Text" Type="Double" />
+                <asp:ControlParameter ControlID="lb_bmi" Name="BMI" PropertyName="Text" Type="Double" />
+            </InsertParameters>
+            <UpdateParameters>
+                <asp:Parameter Name="Weight" Type="Double" />
+                <asp:Parameter Name="BMI" Type="Double" />
+                <asp:Parameter Name="Hight" Type="Int32" />
+            </UpdateParameters>
+        </asp:SqlDataSource>
+
     </form>
 </body>
 </html>
