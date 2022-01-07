@@ -46,8 +46,8 @@
 
        <asp:Label runat="server" Text="6. 您是不是曾經患有高血壓？"></asp:Label>
         <asp:RadioButtonList ID="rb_6" runat="server">
-             <asp:ListItem>(A)沒有(10)</asp:ListItem>
-             <asp:ListItem>(B)有(5)</asp:ListItem>
+             <asp:ListItem>(A)沒有 (10)</asp:ListItem>
+             <asp:ListItem>(B)有 (5)</asp:ListItem>
         </asp:RadioButtonList>
 
         <asp:Label runat="server" Text="7. 您是否曾經患有糖尿病呢？"></asp:Label>
