@@ -10,11 +10,11 @@
 <body>
     <form id="form1" runat="server">
         <h1>BMI換算</h1>
-        <asp:Label runat="server" Text="請輸入身高"></asp:Label>
+        <asp:Label runat="server" Text="請輸入身高 : "></asp:Label>
         <asp:TextBox ID="txt_cm" runat="server"></asp:TextBox>
         <asp:Label runat="server" Text="cm"></asp:Label> <br/>
 
-        <asp:Label runat="server" Text="請輸入體重"></asp:Label>
+        <asp:Label runat="server" Text="請輸入體重 : "></asp:Label>
         <asp:TextBox ID="txt_kg" runat="server"></asp:TextBox>
         <asp:Label runat="server" Text="kg"></asp:Label><br/>
         <br />
