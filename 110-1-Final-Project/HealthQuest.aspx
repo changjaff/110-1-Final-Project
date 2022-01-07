@@ -47,34 +47,34 @@
        <asp:Label runat="server" Text="6. 您是不是曾經患有高血壓？"></asp:Label>
         <asp:RadioButtonList ID="rb_6" runat="server">
              <asp:ListItem>(A)沒有(10)</asp:ListItem>
-             <asp:ListItem>(A)有(5)</asp:ListItem>
+             <asp:ListItem>(B)有(5)</asp:ListItem>
         </asp:RadioButtonList>
 
         <asp:Label runat="server" Text="7. 您是否曾經患有糖尿病呢？"></asp:Label>
         <asp:RadioButtonList ID="rb_7" runat="server">
              <asp:ListItem>(A)沒有(10)</asp:ListItem>
-             <asp:ListItem>(A)有(5)</asp:ListItem>
+             <asp:ListItem>(B)有(5)</asp:ListItem>
         </asp:RadioButtonList>
 
         <asp:Label runat="server" Text="8. 在有使用任何輔具、或幫助的情形下，您在平地上走 500 公尺(大約是小學操場兩圈半或五個街口的距離)會有困難嗎？"></asp:Label>
         <asp:RadioButtonList ID="rb_8" runat="server">
              <asp:ListItem>(A)沒有困難(10)</asp:ListItem>
-             <asp:ListItem>(A)相當困難(7)</asp:ListItem>
-             <asp:ListItem>(A)完全做不到(4)</asp:ListItem>
+             <asp:ListItem>(B)相當困難(7)</asp:ListItem>
+             <asp:ListItem>(C)完全做不到(4)</asp:ListItem>
         </asp:RadioButtonList>
 
         <asp:Label runat="server" Text="9. 請問您是有記憶上的困難，還是沒有辦法專心，或是兩者都有困難呢？"></asp:Label>
         <asp:RadioButtonList ID="rb_9" runat="server">
              <asp:ListItem>(A)沒有問題(10)</asp:ListItem>
-             <asp:ListItem>(A)有記憶上的困難(7)</asp:ListItem>
-             <asp:ListItem>(A)記憶、專注力都有困難(4)</asp:ListItem>
+             <asp:ListItem>(B)有記憶上的困難(7)</asp:ListItem>
+             <asp:ListItem>(C)記憶、專注力都有困難(4)</asp:ListItem>
         </asp:RadioButtonList>
 
         <asp:Label runat="server" Text="10. 請問您在自我照顧上有困難嗎，例如吃飯、穿脫衣服、站立、室內走動、上廁所、洗澡？"></asp:Label>
         <asp:RadioButtonList ID="rb_10" runat="server">
              <asp:ListItem>(A)沒有困難(10)</asp:ListItem>
-             <asp:ListItem>(A)有點困難(7)</asp:ListItem>
-             <asp:ListItem>(A)相當困難(4)</asp:ListItem>
+             <asp:ListItem>(B)有點困難(7)</asp:ListItem>
+             <asp:ListItem>(C)相當困難(4)</asp:ListItem>
         </asp:RadioButtonList>
 
         <asp:Button ID="btn_Submit" runat="server" Text="送出" onclick="btn_Submit_Click"/>
