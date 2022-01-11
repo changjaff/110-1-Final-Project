@@ -73,6 +73,8 @@
     <Content Include="HealthQuest.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="Setting2.css" />
+    <Content Include="Setting.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
