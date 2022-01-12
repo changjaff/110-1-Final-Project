@@ -31,10 +31,9 @@
                 <asp:Parameter Name="身高" Type="Int32" />
             </UpdateParameters>
         </asp:SqlDataSource>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" DataKeyNames="身高">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" DataKeyNames="身高" AllowSorting="True">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
-                <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
                 <asp:BoundField DataField="身高" HeaderText="身高" SortExpression="身高" ReadOnly="True" />
                 <asp:BoundField DataField="體重" HeaderText="體重" SortExpression="體重" />
                 <asp:BoundField DataField="BMI" HeaderText="BMI" SortExpression="BMI" />
