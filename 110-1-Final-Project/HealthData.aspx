@@ -6,7 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" href="Setting2.css" type="text/css" />
-    <title></title>
+    <title>資料查詢-健康管理系統</title>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -31,7 +31,7 @@
                 <asp:Parameter Name="身高" Type="Int32" />
             </UpdateParameters>
         </asp:SqlDataSource>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" DataKeyNames="身高" AllowSorting="True">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" DataKeyNames="身高" AllowSorting="True" AllowPaging="True" PageSize="5">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
                 <asp:BoundField DataField="身高" HeaderText="身高" SortExpression="身高" ReadOnly="True" />

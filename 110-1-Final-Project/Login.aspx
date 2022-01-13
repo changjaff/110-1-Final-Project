@@ -6,7 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <link rel="stylesheet" href="Setting.css" type="text/css" />
-<title></title>
+<title>登入-健康管理系統</title>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -17,6 +17,7 @@
         <asp:TextBox ID="Password" runat="server" TextMode="Password"></asp:TextBox><br />
         <br />
         <asp:Button ID="Button1" runat="server" Text="登入" Height="50px" Width="50px" OnClick="Button1_Click"/><br />
+        <br />
         <asp:Label ID="Tip" runat="server" Font-Bold="True" ForeColor="#FF3300"></asp:Label>
 
 

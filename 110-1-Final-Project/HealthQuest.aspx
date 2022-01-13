@@ -6,7 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" href="Setting2.css" type="text/css" />
-    <title></title>
+    <title>健康問卷-健康管理系統</title>
 </head>
 <body>
     <form id="form1" runat="server">
