@@ -20,6 +20,9 @@
         <asp:Button ID="btn_BMI" runat="server" Text="BMI換算" PostBackUrl="~/BMI.aspx" class="Btns" Font-Size="X-Large" Font-Bold="True" />
         <asp:Button ID="btn_Data" runat="server" Text="查詢健康資料" PostBackUrl="~/HealthData.aspx" Font-Size="X-Large" Font-Bold="True" />
         <asp:Button ID="btn_Quest" runat="server" Text="健康問卷" PostBackUrl="~/HealthQuest.aspx" Font-Size="X-Large" Font-Bold="True" />
+        <br />
+        <br />
+        <asp:Button ID="btn_Exit" runat="server" Text="登出" PostBackUrl="~/Login.aspx"  Font-Size="X-Large" Font-Bold="True" />
 
         
 
