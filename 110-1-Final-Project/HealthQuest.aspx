@@ -81,7 +81,7 @@
         <asp:Button ID="btn_Submit" runat="server" Text="送出" onclick="btn_Submit_Click"/>
         <asp:Button ID="btn_Home" runat="server" Text="回主畫面" PostBackUrl="~/Home.aspx"/>
         <br/>
-        <asp:Label ID="lb_Msg" runat="server" Text="" ForeColor="Red"></asp:Label>
+        <asp:Label ID="lb_Msg" runat="server" Text="" ForeColor="Red" Font-Bold="True"></asp:Label>
         <asp:Label ID="lb_Msg1" runat="server" Text=""></asp:Label>
     </form>
 </body>
